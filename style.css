@@ -1,0 +1,121 @@
+*{
+    margin:0px;
+    padding:0px;
+    text-decoration: none;
+    font-family: Noto Sans, Arial;
+}
+
+nav{
+    display: flex;
+    padding:1rem;
+    justify-content:right;
+    align-items: center;
+    background-color: rgb(12, 104, 15);
+    gap: 1.5rem;
+}
+
+nav a{
+    font-size: 18px;
+    color:beige;
+    text-decoration: none;
+}
+
+#logo{
+    padding-right: 200px;
+}
+
+.home{
+    background-color: beige;
+}
+
+#cart{
+    height: 30px;
+    width:30px;
+    border-radius: 50%;
+}
+
+.main{
+    font-size: 65px;
+    color:darkgreen;
+    display:flex;
+    justify-content: right;
+    padding-top: 100px;
+    padding-right: 100px;
+}
+
+.info{
+    color: rgb(35, 146, 7);
+    font-size: 20px;
+    display: flex;
+    justify-content: right;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+h4{
+    display: flex;
+    justify-content: right;
+    padding-right: 85px;
+    color: green;
+    font-size: 25px;
+}
+
+#grocery{
+    margin-top: -170px;
+    height:300px;
+    padding-left: 30px;
+    border-radius: 50%;
+}
+
+.product{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(233, 233, 169);
+    padding-top: 50px;
+    font-size:50px;
+    color:darkgreen;
+}
+
+.card{
+    display: inline-block;
+    margin-left:40px;
+    margin-top:40px;
+    margin-bottom: 20px;;
+}
+
+.products{
+    background-color: rgb(233, 233, 169);
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    padding-top:10px;
+    background-color: beige;
+    color: green;
+    margin-bottom: 0;
+}
+
+.about-info{
+    color:darkgreen;
+    background-color: beige;
+    padding:10px;
+    margin-bottom: 0;
+}
+
+.contact-info{
+    font-size:20px;
+    display:flex;
+    justify-content: center;
+    color: darkgreen;
+
+}
+
+.contact{
+    font-size: 40px;
+    padding-bottom: 20px;
+    background-color: rgb(233, 233, 169);
+    color:darkgreen;
+    padding-top: 20px;
+
+}
